@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="in.db.config:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>in.db.config</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jwt.example-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="in.db.config:war exploded" />
+    </root>
+  </artifact>
+</component>
